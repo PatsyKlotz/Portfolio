@@ -53,3 +53,9 @@ body {
 h3::first-letter {
   font-size: 4em;
 }
+ul {
+  list-style-type: disc;
+}
+ul ul {
+  list-style-type:inherit;
+}

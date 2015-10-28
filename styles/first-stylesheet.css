@@ -1,0 +1,55 @@
+body {
+  background-color: antiquewhite;
+  }
+  h1 {
+    column-width: auto;
+    font-size: 4em;
+    color: cadetblue;
+  }
+  h2 {
+    column-rule-width: inherit;
+    font-kerning: auto;
+    font-family: serif;
+    color: cadetblue;
+    font-size: 3em;
+  }
+  p {
+    text-align: left;
+    text-decoration-line:none;
+    font-size: 1em;
+  }
+  a {
+    font-size: 2em;
+    font-style:normal;
+    color: cadetblue;
+  }
+  article p {
+    font-family: serif;
+    font-size: 2em;
+  }
+  footer a {
+    color: burlywood;
+    font-size: 1em;
+  }
+  footer p {
+    color: black;
+    font-family:serif;
+    font-size: 2em;
+  }
+.intro {
+  color: cadetblue;
+  font-family: serif;
+  font-size: 2em;
+  font-style: normal;
+  text-emphasis: bold;
+  background-color: burlywood;
+}
+.highlight {
+  color: blue;
+  font-size: 2em;
+  text-indent: inherit;
+  font-style: italic;
+}
+h3::first-letter {
+  font-size: 4em;
+}

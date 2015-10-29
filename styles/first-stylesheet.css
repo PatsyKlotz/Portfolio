@@ -56,6 +56,6 @@ h3::first-letter {
 ul {
   list-style-type: disc;
 }
-ul ul {
-  list-style-type:inherit;
+li a {
+  text-indent: 1000px;
 }

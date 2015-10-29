@@ -43,6 +43,9 @@ body {
   font-style: normal;
   text-emphasis: bold;
   background-color: burlywood;
+  font-kerning: auto;
+  margin-bottom: inherit;
+  margin-top: inherit;
 }
 .highlight {
   color: blue;

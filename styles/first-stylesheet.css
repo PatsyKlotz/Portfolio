@@ -56,3 +56,7 @@ h3::first-letter {
 ul {
   list-style-type: disc;
 }
+li {
+  font-kerning: auto;
+  white-space: normal;
+}

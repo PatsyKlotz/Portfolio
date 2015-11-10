@@ -6,62 +6,59 @@ li {
   header nav li {
   float: left;
   background-color: #6C21CC;
-  border-left: 4px solid #C041FF;
-  margin: 4 0 3 0;
   width: 33%;
   padding: 2rem;
   text-align: center;
-}
+  font-size: 2rem;
+  }
+
   h1 {
     text-align: center;
     font-size: 4em;
-    color:burlywood;
+    color: #846D22;
     padding: 2rem;
-    margin: 0;
   }
+
+article {
+  height: 50rem;
+  margin: 3rem;
+}
   h2 {
     clear: both;
     text-align: center;
     font-family: serif;
-    color:burlywood;
+    color: #846D22;
     font-size: 3em;
     padding: 2rem;
     margin: 0;
   }
-  p {
-    text-align: left;
+h3 {
+  color: #846D22;
+  font-size: 2em;
+  padding: 2rem;
+}
+ footer p {
+    color: #846D22;
     font-size: 1em;
-  }
-  a {
-    font-size: 2em;
-    font-style:normal;
-    color: cadetblue;
-  }
-  article p {
-    font-family: serif;
-    font-size: 2em;
-  }
-  footer a {
-    color: burlywood;
-    font-size: 1em;
-  }
-  footer p {
-    color: black;
-    font-family:serif;
-    font-size: 2em;
   }
 .intro {
-  color: cadetblue;
+  color: #846D22;
   font-family: serif;
-  font-size: 2em;
+  font-size: 3em;
 }
-.highlight {
-  color: blue;
-  font-size: 2em;
+.main {
+  float: right;
+  width: 75%;
+  min-height: 100%;
+  padding: 2rem;
+  margin: 0;
+  background-color: #FFBD3A;
 }
-h3::first-letter {
-  font-size: 4em;
-}
-ul {
-  list-style-type: disc;
+.side {
+  float: left;
+  width: 25%;
+  min-height: 100%;
+  padding: 2rem;
+  background-color: #C49BFF;
+  margin: 0;
 }

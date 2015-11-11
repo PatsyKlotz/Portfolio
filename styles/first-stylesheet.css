@@ -1,23 +1,27 @@
 * { box-sizing: border-box; }
 body {
+  font-family: 'Merriweather', serif;
 }
 
 li {
   list-style-type: none;
 }
 header nav li {
-float: left;
-background-color: #4A3269;
-width: 33%;
-padding: 2rem;
-text-align: center;
-font-size: 3rem;
+  float: left;
+  position: relative;
+  right: .75rem;
+  background-color: #4A3269;
+  width: 33%;
+  padding: 2rem;
+  text-align: center;
+  font-size: 2em; 
 }
 h1 {
   text-align: center;
   font-size: 4em;
   color: #846D22;
   padding: 2rem;
+  font-weight: bolder;
 }
 
 article {
@@ -27,21 +31,22 @@ article {
 h2 {
   clear: both;
   text-align: center;
-  font-family: serif;
   color: #846D22;
   font-size: 3em;
   padding: 2rem;
   margin: 0;
+  font-weight: 100;
 }
 h3 {
   color: #846D22;
   font-size: 2em;
   padding: 2rem;
+  font-weight:100;
 }
  footer p {
-    color: #846D22;
-    font-size: 1.5em;
-  }
+  color: #846D22;
+  font-size: 1.5em;
+}
 footer {
   clear: both;
   text-align: center;
@@ -50,7 +55,6 @@ footer {
 }
 .intro {
   color: #846D22;
-  font-family: serif;
   font-size: 3em;
 }
 .main {
@@ -68,4 +72,4 @@ footer {
   padding: 2rem;
   margin: 0;
   background-color: #FFF8D0;
- }
+}

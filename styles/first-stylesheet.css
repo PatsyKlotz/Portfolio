@@ -2,29 +2,30 @@
 body {
   font-family: 'Merriweather', serif;
 }
-
 li {
   list-style-type: none;
+}
+img {
+  max-width: 100%;
 }
 header nav li {
   float: left;
   position: relative;
   right: .75rem;
-  background-color: #4A3269;
+  background-color: #9B92BF;
+  font-weight:200;
   width: 33%;
   padding: 2rem;
   text-align: center;
   font-size: 2em;
-  color: black;
 }
 h1 {
   text-align: center;
   font-size: 4em;
-  color: #846D22;
+  color: #56498C;
   padding: 2rem;
   font-weight: bolder;
 }
-
 article {
   height: 50rem;
   margin: 3rem;
@@ -32,20 +33,20 @@ article {
 h2 {
   clear: both;
   text-align: center;
-  color: #846D22;
+  color: #56498C;
   font-size: 3em;
   padding: 2rem;
   margin: 0;
   font-weight: 100;
 }
 h3 {
-  color: #846D22;
+  color: #56498C;
   font-size: 2em;
   padding: 2rem;
   font-weight:100;
 }
  footer p {
-  color: #846D22;
+  color: #56498C;
   font-size: 1.5em;
 }
 footer {
@@ -55,16 +56,17 @@ footer {
   margin: 0;
 }
 .intro {
-  color: #846D22;
+  color: #9B92BF;
   font-size: 3em;
 }
 .main {
   float: right;
-  background-color: #C5B4CC;
+  background-color: #8857F2;
   width: 75%;
   min-height: 100%;
   padding: 2rem;
   margin: 0;
+  overflow: hidden;
 }
 .side {
   float: left;
@@ -72,5 +74,5 @@ footer {
   min-height: 100%;
   padding: 2rem;
   margin: 0;
-  background-color: #FFF8D0;
+  background-color: #9F79F2;
 }
